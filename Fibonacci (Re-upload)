@@ -1,0 +1,21 @@
+print("Hello user, welcome to the fibonacci sequence program")
+
+n = int(input("How many terms would you like to add: "))
+
+# set values of first two terms
+a, b = 0, 1
+count = 0
+
+# Check if the number of terms is valid
+if n <= 0:
+    print("Please input positive integer")
+else:
+    print("sequence:")
+    while count < n:
+        print(a)
+      #add the values
+        next = a + b
+        # Update the values
+        a = b
+        b = next
+        count = count + 1
