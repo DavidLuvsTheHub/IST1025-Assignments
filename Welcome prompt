@@ -1,0 +1,21 @@
+#This is a simple Hello world program 
+
+print("hello world") 
+
+#This is a simple set of input fields about the student's information 
+
+name = input("Enter your name: ") 
+
+age = input("Enter your age: ") 
+
+School = input("Enter your school: ") 
+
+Year = input ("Enter your year (I.e Freshman, sophomore): ") 
+
+course= input ("Enter your course: ") 
+
+ 
+
+#Displays welcome message with the information 
+
+print(f"Hello, {name}, {age}! You are a student of {School} in your {Year} doing {course}, is that correct?") 
